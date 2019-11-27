@@ -9032,7 +9032,7 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
   .form-control:focus, .form-control:active {
-    border-color: #000000; }
+    border-color: #3e64ff; }
 
 textarea.form-control {
   height: inherit !important; }
@@ -9672,3 +9672,8 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+@media (max-width: 400px){
+	.mouse {
+		bottom: 20px;
+	}
+} 
