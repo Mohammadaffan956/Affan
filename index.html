@@ -1325,7 +1325,93 @@
 
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form role="form" name="contact_form"  class="bg-light p-4 p-md-5 contact-form">
+
+			<form action="#" id="contact-form" name="contact_form"  class="bg-light p-4 p-md-5 contact-form">
+				<div
+		   
+		  class="field">
+		  
+				  
+		  <label
+		   
+		  for="name">Name:</label>
+		  
+				  
+		  <input
+		   
+		  type="text"
+		   
+		  id="name"
+		   
+		  name="name"
+		   
+		  required>
+		  
+				
+		  </div>
+		  
+				
+		  <div
+		   
+		  class="field">
+		  
+				  
+		  <label
+		   
+		  for="email">Email:</label>
+		  
+				  
+		  <input
+		   
+		  type="email"
+		   
+		  id="email"
+		   
+		  name="email"
+		   
+		  required>
+		  
+				
+		  </div>
+		  
+				
+		  <div
+		   
+		  class="field">
+		  
+				  
+		  <label
+		   
+		  for="subject">Subject:</label>
+		  
+				  
+		  <input
+		   
+		  type="text"
+		   
+		  id="subject"
+		   
+		  name="subject"
+		   
+		  required>
+		  
+				
+		  </div>
+		  
+				
+		  <div
+		   
+		  class="field">
+		  
+				  
+		  <label
+		   
+		  for="message">Message:</label>
+				  <textarea id="message" name="message" required></textarea>
+				</div>
+				<button type="submit" id="submit-btn">Send message</button>
+			  </form>
+            <!-- <form role="form" id="contact-form" name="contact_form"  class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
                 <input type="text" class="form-control" id="input_name" name="Name" placeholder="Your Name">
               </div>
@@ -1345,10 +1431,10 @@
                 <textarea id="contact_comment" name="Comment" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
               </div>
               <div class="form-group">
-<!--                 <button id="submit_button"type="submit" class="btn btn-primary" onclick="submit_comment()">Submit</button> -->
+                <button id="submit_button"type="submit" class="btn btn-primary" onclick="submit_comment()">Submit</button>
 		      <a href="mailto: mohammadaffan956@gmail.com" class="btn btn-primary">Submit</a>
               </div>
-            </form>
+            </form> -->
           
           </div>
 
@@ -1444,22 +1530,58 @@
   
   <script src="js/main.js"></script>
   <script>
-	function sendMail(str) {
-		var link = "mohammadaffan956@gmail.com" + "&subject=" + escape("This is my subject") + "&body=" + escape(str);
-		location.href = link;
-	}
-	function submit_comment() {
-	var name = document.forms["contact_form"]["Name"].value;
-	var Email = document.forms["contact_form"]["Email"].value;
-	var Subject = document.forms["contact_form"]["Subject"].value;
-	var Phone = document.forms["contact_form"]["Phone"].value;
-	var Location = document.forms["contact_form"]["Location"].value;
-	var Comment = document.forms["contact_form"]["Location"].value;
-	if((name !="") && (Email !="") && (Subject !="") && (Phone !="") && (Location !="") && (Comment !="")) {
-	   sendMail("HELLO");
-	}
-	}
+	const form = document.getElementById('contact-form');
+const submitBtn = document.getElementById('submit-btn');
+
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  // Basic validation
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const subject = document.getElementById('subject').value;
+  const message = document.getElementById('message').value;
+
+  if (!name || !email || !subject || !message) {
+    alert('Please fill in all required fields!');
+    return;
+  }
+
+  // Specify the receiver email
+  const receiverEmail = 'affan.techstack@gmail.com';
+
+  // Submit the form data using AJAX
+  fetch('/send-message', {
+    method: 'POST',
+    body: JSON.stringify({
+      name,
+      email,
+      subject,
+      message,
+      receiverEmail, // Include the receiver email in the data
+    }),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then(response => response.json())
+    .then(data => {
+      if (data.success) {
+        alert('Message sent successfully!');
+        form.reset();
+      } else {
+        alert('Error sending message: ' + data.error);
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('An error occurred while sending the message. Please try again later.');
+    });
+});
 	</script>
+
+
+
     
   </body>
 </html>
