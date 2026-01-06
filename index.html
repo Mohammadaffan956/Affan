@@ -41,7 +41,49 @@
 		gtag('config', 'G-JJWVS22R5V');
 	</script>
 </head>
+<style>
+    #whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: white;
+        border-radius: 50px;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        z-index: 9999;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
 
+    #whatsapp-button img {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    #whatsapp-button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+    }
+
+    #whatsapp-button span {
+        font-size: 16px;
+    }
+
+    @media (max-width: 480px) {
+        #whatsapp-button span {
+            display: none; /* Hide text on small screens */
+        }
+        #whatsapp-button {
+            padding: 10px;
+        }
+    }
+</style>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
@@ -1958,7 +2000,12 @@
 
 
 
-
+<a href="https://wa.me/923432744927?text=Hello%20Mohammad,%20I%20found%20you%20on%20https%3A%2F%2Fmohammadaffan956.github.io%2FAffan%2F%20and%20I%20want%20to%20discuss%20a%20website%20project." 
+   target="_blank" 
+   id="whatsapp-button">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Chat on WhatsApp" />
+    <span>Chat with us</span>
+</a>
 </body>
 
 </html>
