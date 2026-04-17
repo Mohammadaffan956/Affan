@@ -440,3 +440,11 @@ $(function() {
 
 });
 
+$(document).ready(function() {
+    $('.dropdown-toggle-btn').on('click', function(e) {
+        if ($(window).width() < 992) {
+            e.preventDefault();
+            $(this).parent('.has-dropdown').toggleClass('open');
+        }
+    });
+});
