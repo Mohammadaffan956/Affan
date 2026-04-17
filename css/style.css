@@ -66,6 +66,31 @@ body {
 
 
 
+/* Mobile specific: Jab menu open ho aur header scrolled ho */
+@media (max-width: 991.98px) {
+    .ftco-navbar-light.scrolled .navbar-nav .nav-item.has-dropdown .sub-menu li a {
+        color: #333333 !important; /* Dropdown ke andar wale links dark grey/black */
+        border-bottom: 1px solid #f0f0f0; /* Halki line separation ke liye */
+    }
+
+    /* Agar scrolled state mein background white hai to sub-menu ka background bhi adjust karein */
+    .ftco-navbar-light.scrolled .sub-menu {
+        background: #ffffff !important;
+        border-left: 2px solid #3e64ff; /* Aapki theme ka blue color */
+    }
+}
+
+/* Hover state on scrolled header */
+.ftco-navbar-light.scrolled .nav-item.has-dropdown .nav-link:hover {
+    color: #3e64ff !important; /* Hover par wapis blue/theme color ho jaye */
+}
+
+
+
+
+
+
+
 /* --- Desktop Dropdown Logic --- */
 @media (min-width: 992px) {
     .has-dropdown {
