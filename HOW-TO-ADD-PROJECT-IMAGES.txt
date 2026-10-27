@@ -1,0 +1,85 @@
+MOHAMMAD AFFAN — PORTFOLIO WITH MANUAL PROJECT IMAGES
+
+1. Upload all files and folders to the root of your GitHub Pages repository (Affan).
+2. This version DOES NOT use live screenshot services. Every portfolio card has a placeholder until you add an image.
+3. Put your own screenshots into: images/projects/
+4. Match the filename listed below EXACTLY. Use .jpg images (recommended 1200x750 px, compressed to ~100–250 KB).
+5. For PNG screenshots, either convert to JPG or edit the image src in index.html to .png.
+6. You can replace screenshots at any time without editing HTML: upload a new JPG with the same filename.
+7. The logo and favicon are already installed across all six HTML pages.
+8. Project cards link to live websites even before you add images.
+
+PROJECT IMAGE FILENAMES
+K-Bomb Kratom  ->  images/projects/kbombkratom-com.jpg
+Hoplon Co.  ->  images/projects/hoplonco-com.jpg
+Al Emad Cars  ->  images/projects/al-emadcars-com.jpg
+FAH Advocates  ->  images/projects/fahadvocates-ae.jpg
+Bloomlight  ->  images/projects/bloomlight-co.jpg
+Scentido Perfumes  ->  images/projects/scentidoperfumes-com.jpg
+Revive Dental  ->  images/projects/revivedental-ae.jpg
+Bethesda Dental Group  ->  images/projects/bethesdadentalgroup-com.jpg
+Umma Perfumes  ->  images/projects/ummaperfumes-com.jpg
+Bebek Restaurant  ->  images/projects/bebekrestaurant-ae.jpg
+MU-KII  ->  images/projects/mu-kii-ae.jpg
+Emirates Advocates  ->  images/projects/emiratesadvocates-com.jpg
+Werbetechnik Digital  ->  images/projects/werbetechnik-digital-de.jpg
+Precious Scent  ->  images/projects/preciousscent-com.jpg
+SFA Research  ->  images/projects/sfaresearch-com.jpg
+Domani Perfumes  ->  images/projects/domaniperfumes-com.jpg
+New Age Media  ->  images/projects/newagemedia-ae.jpg
+Espero Perfumes  ->  images/projects/esperoperfumes-com.jpg
+Proactive Realty  ->  images/projects/proactive-realty-com.jpg
+Motion Dock  ->  images/projects/motion-dock-com.jpg
+Velux Rentals  ->  images/projects/veluxrentals-com.jpg
+New Age Group  ->  images/projects/newagegroup-ae.jpg
+Caliber Technologies  ->  images/projects/caliberteches-com.jpg
+New Age Legal  ->  images/projects/newagelegal-ae.jpg
+Crewters App  ->  images/projects/crewtersapp-com.jpg
+Top Muscle Care  ->  images/projects/topmusclecare-com.jpg
+Egy Muscle Care  ->  images/projects/egymusclecare-com.jpg
+VR Wonderlands  ->  images/projects/vrwonderlands-com.jpg
+Catalyces  ->  images/projects/catalyces-com.jpg
+TechStack Digital  ->  images/projects/techstackdigital-com.jpg
+Fresh Mitra  ->  images/projects/freshmitra-com.jpg
+Same Day Plumber  ->  images/projects/samedayplumber-com-au.jpg
+Profound UAE  ->  images/projects/profounduae-com.jpg
+Bellico Group  ->  images/projects/bellicogroup-com.jpg
+SSFH  ->  images/projects/ssfh-co.jpg
+New Age UAE  ->  images/projects/newageuae-com.jpg
+Sana VIP Interior  ->  images/projects/sanavipinterior-com.jpg
+Glowify Mart  ->  images/projects/glowifymart-com.jpg
+Rebus Energy Solutions  ->  images/projects/rebusenergysolutions-com.jpg
+DSUS VIP  ->  images/projects/dsusvip-com.jpg
+Prestige In-Home Care  ->  images/projects/prestigeinhomecareservices-co.jpg
+Lopez Creations  ->  images/projects/lopezcreationss-com.jpg
+Fragrant Oracle  ->  images/projects/fragrantoracle-com.jpg
+KFA VR Rentals  ->  images/projects/kfavrvrentals-com.jpg
+Urban Kreation  ->  images/projects/urbankreation-net.jpg
+Vilio Bacette  ->  images/projects/viliobacette-co.jpg
+RPG Bullies  ->  images/projects/rpgbullies-com.jpg
+MEO Management  ->  images/projects/meomanagement-co.jpg
+MZ Traders  ->  images/projects/mztraders-com.jpg
+The Digital Aliens  ->  images/projects/thedigitalaliens-net.jpg
+Moorestown Compliance  ->  images/projects/moorestowncompliance-com.jpg
+Red Giant Advertising  ->  images/projects/redgiantadvertising-com.jpg
+ExaOps  ->  images/projects/exaops-io.jpg
+Dar Balasayel  ->  images/projects/darbalasayel-com.jpg
+Sahara Heating & Cooling  ->  images/projects/saharaheatingcooling-com.jpg
+MPM Goggles  ->  images/projects/mpmgoggles-com.jpg
+Event Majors  ->  images/projects/eventmajors-com.jpg
+Target Marketing Digital  ->  images/projects/targetmarketingpk-com.jpg
+Target Marketing Portal  ->  images/projects/targetmarketingpk-store.jpg
+Homeland City Faisalabad  ->  images/projects/homelandcityfaisalabad-com.jpg
+Agency Five  ->  images/projects/agencyfiv-com.jpg
+Marketing Goat  ->  images/projects/marketing-goat-com.jpg
+Kent Laser Lounge  ->  images/projects/kentlaserlounge-co-uk.jpg
+ERG NYC  ->  images/projects/ergnyc-com.jpg
+Infocus  ->  images/projects/infocus-pk.jpg
+Global Tech Digital  ->  images/projects/globaltechdigital-co.jpg
+Homeland Enterprise  ->  images/projects/homelandenterprise-com.jpg
+Citrus Talent  ->  images/projects/citrustalent-com.jpg
+Hala Talents  ->  images/projects/halatalents-com.jpg
+Subli Fix  ->  images/projects/sublifix-net.jpg
+Tax2U  ->  images/projects/tax2u-co-uk.jpg
+Marvisons  ->  images/projects/marvisons-com.jpg
+Eclipse US  ->  images/projects/eclipse-us-com.jpg
